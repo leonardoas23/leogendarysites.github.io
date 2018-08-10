@@ -1,0 +1,184 @@
+﻿ /*body {
+    background-image: url("img/legendary.jpg")
+     
+
+
+}
+
+{
+    margin:0;
+    padding:0;
+}
+
+#aipara3{
+    
+    text-indent: 500px;
+
+     font-family: "Trebuchet MS ", Arial, Helvetica, sans-serif;
+
+     color: #FFFFFF;
+
+     font-size: 25;
+}
+
+
+}
+
+#Linkao{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 25px;
+    color: #ff0000;
+    text-decoration:underline;
+
+
+}
+#linkao:hover{
+
+    color:#590d70;
+}
+.div{
+position: relative;
+width: 300px;
+height: 180px;
+background-color: #590d70;
+border-radius: 4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+box-shadow: 5px 5px 5px #cccccc;
+margin: 100px;
+padding: 50px;
+float: right;
+
+}
+.div2{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: #590d70;
+    border: solid 10px #ff0000;
+    margin: 100px;
+    padding: 50px;
+    float: right;
+    
+    }
+    .div:hover{
+        width: 200px;
+        height: 100px;
+        background-color: #cccccc;
+    }
+\*html
+
+    <p id="aipara">teste 1</p>
+<p id="aipara2">teste 2</p>  
+<p id="aipara3">teste 3</p>  
+
+<div class="div">Nois que voa bruxao</div>
+<div class="div2">Nois que voa bruxao 2</div>
+
+<a href="index2.html" id="Linkao">Linkao</a>
+
+
+    */
+	body
+	{
+	    
+	    margin:0px;
+	    background-color:gray;
+	}
+    .div{
+	position: absolute;
+	height: 340px;/*altura da imagem*/
+	box-shadow: 2px 2px 2px #000000;
+	background-image: url("img/legendary.jpg");
+	background-size:cover;
+	left: -2px;/*distancia da imagem da esquerda*/
+	top: -1px;/*distancia da imagem do topo*/
+  
+        }
+
+    
+.menu
+{
+    text-align: center;
+
+
+       list-style-type: none;
+       /* margin-top: 10px;/*começo do menu em altura*/
+        border: 1px solid rgb(82, 80, 80);
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+		
+    }
+.menu li{
+    position: relative;
+    float: left;
+	border-right:1px solid #c0c0c0;
+    padding-right:296px;/*tamanho do menu para lateral*/
+    /*width:100%;*/
+    background-color:  rgb(80, 90, 80);
+    height: 50px;/*altura do menu*/
+   /* line-height:45px;/*altura da linha do menu*/
+}
+
+.menu li a{
+	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;/*tamanho da fonte do menu*/
+    color: #15d465;
+    text-decoration: none;
+}
+.menu li ul{
+    list-style-type: none;
+    top: 25px;/*distancia dos itens do menu para baixo*/
+    left: -40px;/*distancia dos itens do menu para direita*/
+    display: none;
+position:absolute;  
+
+
+
+}
+
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #990000;
+    display: block;-
+    width:10px;
+    height:40px;/*tamanho da caixa dos itens do menu em altura*/
+    
+}
+    .corpo
+{
+
+        background-color: gray;
+        width: 100vw;
+         height: 100vh;
+         background: #6C7A89;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         text-decoration:none;
+         
+
+
+}
+.box {
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+    width: 800px;
+    height: 100%;
+    background: gray;
+}
+

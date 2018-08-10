@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p>Aperte para menssagem surpresa em 3 segundos.</p>
+<button onclick="myFunction()">BOTÃOZÃO</button>
+<script>
+function myFunction()
+{
+setTimeout(function(){alert("LA VAI 1")},1000);
+setTimeout(function(){alert("TA QUASE")},2000);
+setTimeout(function(){alert("SHAZAM CARAI!!!!!!!")},3000);
+}
+</script>
+
+
+
+    <p>Exibir com itens & loop </p>
+    <button onclick="myFunction2()">Botao exibidor com loop</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction2() {
+            var x = "", i = 0;
+            do {
+                x = x + "Numero " + i + "<br />";
+                i++;
+            }
+            while (i < 11)
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+
+
+    <p>Verifcador de idade para votar</p>
+    Age:<input id="age" value="18" />
+    <p>Tem idade suficiente para votar</p>
+    <button onclick="myFunction3()">Resultado</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction3() {
+            var age, voteable;
+            age = document.getElementById("age").value;
+            voteable = (age < 18) ? "não vota" : "vota";
+            document.getElementById("demo").innerHTML = voteable;
+        }
+    </script>
+</body>
+</html>
+
